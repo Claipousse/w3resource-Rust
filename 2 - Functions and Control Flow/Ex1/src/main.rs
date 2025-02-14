@@ -1,8 +1,8 @@
 use std::io;
 
 fn saisie_longueur() -> f32 {
-    let mut longueur = String::new();
     loop {
+        let mut longueur = String::new();
         println!("Saisissez la longueur du rectangle :");
         io::stdin().read_line(&mut longueur).expect("Erreur lors de la lecture...");
         match longueur.trim().parse::<f32>() {
@@ -16,8 +16,8 @@ fn saisie_longueur() -> f32 {
 }
 
 fn saisie_largeur() -> f32 {
-    let mut largeur = String::new();
     loop {
+        let mut largeur = String::new();
         println!("Saisissez la largeur du rectangle :");
         io::stdin().read_line(&mut largeur).expect("Erreur lors de la lecture");
         match largeur.trim().parse::<f32>() {

@@ -1,8 +1,8 @@
 use std::io;
 
 fn saisie_celsius() -> f32 {
-    let mut celsius = String::new();
     loop {
+        let mut celsius = String::new();
         println!("Saisissez une température (en °C)");
         io::stdin().read_line(&mut celsius).expect("Erreur de lecture...");
         match celsius.trim().parse::<f32>() {

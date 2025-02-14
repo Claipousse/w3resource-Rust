@@ -1,8 +1,8 @@
 use std::io;
 
 fn saisie_n() -> u32 {
-    let mut n = String::new();
     loop {
+        let mut n = String::new();
         println!("Saisissez un entier positif : ");
         io::stdin().read_line(&mut n).expect("Erreur de lecture...");
         match n.trim().parse::<u32>() {
