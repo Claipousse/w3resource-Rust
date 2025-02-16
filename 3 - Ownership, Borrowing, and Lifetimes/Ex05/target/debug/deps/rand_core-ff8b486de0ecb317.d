@@ -1,0 +1,11 @@
+C:\Users\cleme\Desktop\w3resource-Rust\3 - Ownership, Borrowing, and Lifetimes\Ex05\target\debug\deps\librand_core-ff8b486de0ecb317.rmeta: C:\Users\cleme\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rand_core-0.9.0\src\lib.rs C:\Users\cleme\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rand_core-0.9.0\src\block.rs C:\Users\cleme\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rand_core-0.9.0\src\impls.rs C:\Users\cleme\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rand_core-0.9.0\src\le.rs C:\Users\cleme\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rand_core-0.9.0\src\os.rs
+
+C:\Users\cleme\Desktop\w3resource-Rust\3 - Ownership, Borrowing, and Lifetimes\Ex05\target\debug\deps\librand_core-ff8b486de0ecb317.rlib: C:\Users\cleme\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rand_core-0.9.0\src\lib.rs C:\Users\cleme\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rand_core-0.9.0\src\block.rs C:\Users\cleme\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rand_core-0.9.0\src\impls.rs C:\Users\cleme\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rand_core-0.9.0\src\le.rs C:\Users\cleme\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rand_core-0.9.0\src\os.rs
+
+C:\Users\cleme\Desktop\w3resource-Rust\3 - Ownership, Borrowing, and Lifetimes\Ex05\target\debug\deps\rand_core-ff8b486de0ecb317.d: C:\Users\cleme\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rand_core-0.9.0\src\lib.rs C:\Users\cleme\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rand_core-0.9.0\src\block.rs C:\Users\cleme\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rand_core-0.9.0\src\impls.rs C:\Users\cleme\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rand_core-0.9.0\src\le.rs C:\Users\cleme\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rand_core-0.9.0\src\os.rs
+
+C:\Users\cleme\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rand_core-0.9.0\src\lib.rs:
+C:\Users\cleme\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rand_core-0.9.0\src\block.rs:
+C:\Users\cleme\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rand_core-0.9.0\src\impls.rs:
+C:\Users\cleme\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rand_core-0.9.0\src\le.rs:
+C:\Users\cleme\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rand_core-0.9.0\src\os.rs:

@@ -1,0 +1,1 @@
+C:\Users\cleme\Desktop\w3resource-Rust\3\ -\ Ownership,\ Borrowing,\ and\ Lifetimes\Ex05\target\debug\Ex05.exe: C:\Users\cleme\Desktop\w3resource-Rust\3\ -\ Ownership,\ Borrowing,\ and\ Lifetimes\Ex05\src\main.rs
