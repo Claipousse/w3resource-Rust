@@ -6,7 +6,7 @@ fn handle_client(mut stream:TcpStream) {
     stream.read(&mut buffer).unwrap();
     let request = String::from_utf8_lossy(&buffer[..]); //.. = prend tout le buffer
     println!("Requête reçue : {request}");
-    let reponse:&str = "HTTP/1.1 200 OK\r\n\r\nHello, World!";
+    let reponse:&str = "HTTP/1.1 200 OK\r\n\r\nLa connexion avec le serveur est réussi";
     stream.write(reponse.as_bytes()).unwrap(); //Ecrire reponse dans le flux client
     stream.flush().unwrap(); //On s'assure que toutes les données ont été envoyés
 }
