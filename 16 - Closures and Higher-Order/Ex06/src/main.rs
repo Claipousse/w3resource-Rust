@@ -39,9 +39,31 @@ fn caesar_code_key() -> u8 {
     }
 }
 
+fn apply_closure_caesar_cipher<F>(closure:F, vec:Vec<String>) -> Vec<String>
+where
+    F: Fn(char) -> char,
+{
+    vec.into_iter()
+        .map(|string| string.chars().map(&closure).collect::<String>())
+        .collect()
+}
+
+
 fn main() {
     let vec:Vec<String> = input_vector_string();
     let key = caesar_code_key();
-    println!("{:?}", vec);
-    println!("{key}")
+
+    let caesar_closure = |c: char| -> char {
+        if c.is_ascii_alphabetic() {
+            let first = if c.is_ascii_lowercase() { 'a' } else { 'A' };
+            let new_c = ((c as u8 - first as u8 + key) % 26 + first as u8) as char;
+            new_c
+        } else { //é, à, 1, ?, ... are not converted
+            c
+        }
+    };
+    let encrypted_vec = apply_closure_caesar_cipher(caesar_closure, vec.clone());
+
+    println!("Caesar key selected : {key} :");
+    println!("{:?} -> {:?}", vec, encrypted_vec);
 }
